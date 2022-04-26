@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example of plugin usage.",
+  "scripts": {
+    "start": "parcel src/index.html --lazy",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Konrad Chmielecki",
+  "license": "GPL-3.0"
+}

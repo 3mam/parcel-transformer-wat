@@ -1,0 +1,5 @@
+{
+  "transformers": {
+    "*.{wat,wasm}": ["parcel-transformer-wat"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "parcel-transformer-wat",
+  "version": "2.5.0",
+  "description": "Parcel transformer plugin for WAT to WASM",
+  "engines": {
+    "node": ">= 17.0.0",
+    "parcel": "^2.5.0"
+  },
+  "main": "lib/index.js",
+  "source": "lib/index.js",
+  "author": "Konrad Chmielecki",
+  "license": "GPL-3.0",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/3mam/parcel-transformer-wat"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@parcel/plugin": "^2.5.0",
+    "wabt": "1.0.28-nightly.20220422"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.5.0",
+    "@parcel/core": "^2.5.0"
+  },
+  "peerDependencies": {
+    "@parcel/core": "^2.5.0"
+  }
+}
