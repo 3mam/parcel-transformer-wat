@@ -10,6 +10,7 @@ This is plugin for [parcel](https://parceljs.org) that compiles **wat** files to
 **.parcelrc**
 ```javascript
 {
+  "extends": "@parcel/config-default",
   "transformers": {
     "*.{wat,wasm}": ["parcel-transformer-wat"]
   }
