@@ -7,5 +7,9 @@
     "build": "parcel build src/index.html"
   },
   "author": "Konrad Chmielecki",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "parcel-transformer-wat": "^2.5.0"
+  }
 }
