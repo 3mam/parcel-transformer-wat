@@ -17,6 +17,12 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "parcel",
+    "webassembly",
+    "wasm",
+    "wat"
+  ],
   "dependencies": {
     "@parcel/plugin": "^2.5.0",
     "wabt": "1.0.28-nightly.20220422"
