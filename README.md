@@ -12,7 +12,7 @@ This is plugin for [parcel](https://parceljs.org) that compiles **wat** files to
 {
   "extends": "@parcel/config-default",
   "transformers": {
-    "*.{wat,wasm}": ["parcel-transformer-wat"]
+    "*.wat": ["parcel-transformer-wat"]
   }
 }
 ```
@@ -20,7 +20,8 @@ This is plugin for [parcel](https://parceljs.org) that compiles **wat** files to
 ## usage
 
 ```javascript
-let {addTwo} = await import('./test.wat')
+import foo from './foo.wat'
+let wasm = await WebAssembly.instantiate(foo)
 ```
-Plugin work only with **async** version of **import**.
-Plugin contain simple example.
+
+Plugin contain simple example on git repo.
