@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example of plugin usage.",
   "scripts": {
-    "start": "parcel src/index.html --lazy",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "author": "Konrad Chmielecki",

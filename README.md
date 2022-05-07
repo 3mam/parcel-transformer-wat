@@ -1,5 +1,5 @@
 # parcel-transformer-wat
-This is plugin for [parcel](https://parceljs.org) that compiles **wat** files to **was**, thanks to 
+This is plugin for [parcel](https://parceljs.org) that compiles **wat** files to **wasm**, thanks to 
 [wabt.js](https://github.com/AssemblyScript/wabt.js/)
 
 

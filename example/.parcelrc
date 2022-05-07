@@ -1,6 +1,6 @@
 {
   "extends": "@parcel/config-default",
   "transformers": {
-    "*.{wat,wasm}": ["parcel-transformer-wat"]
+    "*.wat": ["parcel-transformer-wat"]
   }
 }
