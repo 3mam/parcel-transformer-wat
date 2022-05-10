@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-wat",
-  "version": "2.5.0-4",
+  "version": "2.5.0-5",
   "description": "Parcel transformer plugin for WAT to WASM",
   "engines": {
     "node": ">= 17.0.0",
